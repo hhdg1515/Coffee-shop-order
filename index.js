@@ -10,7 +10,7 @@ function add() {
 function reviewOrder() {
     saveEl.textContent="";
     countStr = "You have ordered "+ count + " coffee☕";
-    saveEl.textContent += countStr;
+    saveEl.textContent = countStr;
     countEl.textContent = 0;
     count = 0;
 }
@@ -19,6 +19,6 @@ function reviewOrder() {
 function cancel() {
     countStr = "Please start your order";
     saveEl.textContent = countStr;
-    countEl.textContent = 0;
+    countEl.textContent = "0";
     count = 0;
 }
